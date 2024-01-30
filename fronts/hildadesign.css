@@ -1,0 +1,213 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+    font-size: 15px;
+    background-color:#983337;
+}
+header {
+    position: fixed;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.verch{
+    background: url(../img/fon1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.verch__row{
+    display: flex;
+    flex-direction:column;
+    padding: 3% 0px 0px 0px;
+}
+.verch__nazv{
+    margin-top: 10%;
+    padding: 0px 0px 2% 15%;
+}
+.nazv__title{
+    font-size: 90px;
+}
+.nazv__opis span{
+    padding: 2px;
+    text-shadow: 1px 1px 3px #000000 ;
+}
+.opis__poster{
+    padding: 0px 3% 0px 23% ;
+}
+.opis__poster img{
+    border-radius: 10px;
+}
+.verch__opis{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to top, #983337,rgba(0, 0, 0, 0));
+    display: flex;
+    align-items:center;
+}
+.opis__film{
+    display: flex;
+    width: 65%;
+
+}
+.opis__body{
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}
+
+.opis__text b{
+    font-size: 20px;
+}
+.opis__text p{
+    text-shadow: 1px 1px 3px #000000 ;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.opis__zanr{
+    display: flex;
+}
+.opis__zanr ul{
+    list-style: none;
+    align-items:center;
+}
+.opis__zanr li{
+    border: 2px solid rgb(255, 231, 197);
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    white-space: normal;
+}
+.opis__zanr li:hover{
+    background-color: #477eb569;
+}
+.opis__ocenka{
+    padding: 0px 10% ;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.opis__ocenka a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.opis__ocenka p{
+    border: 8px solid rgb(255, 231, 197);
+    border-radius: 100px;
+    padding: 22px 16px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .footer__img {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content:flex-end;
+
+  }
+
+  .footer__bottom {
+    padding: 7px 0px;
+    background-color: #bc7c52;
+    text-align: center;
+  }
+
+
+
+.seasons{
+    padding: 5% 10% 2% 10%;
+    background-color:#983337;
+    display: flex;
+    justify-content:center;
+}
+.seas__title{
+    color: rgb(255, 231, 197);
+    font-size: 40px;
+    text-align: center;
+}
+.seas__seasons{
+    display: flex;
+}
+.seas__seasons ul{
+    list-style: none;
+    align-items:center;
+}
+.seas__seasons li{
+    border: 2px solid rgb(255, 231, 197);
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+    display: inline-block;
+    white-space: normal;
+}
+.seas__seasons a{
+    text-decoration: none;
+    color: white;
+}
+
+.seas__seasons li:hover{
+    background-color: #477eb569;
+}
+.seas__seasons li:active{
+    background-color: #477eb500;
+    border: 0px;
+}
+.seas__seasons li:last-child{
+    padding: 10px 26px;
+}
+
+.gallery{
+    padding: 0px 10%;
+    background-color:#983337;
+}
+
+.gallery__title{
+    color: rgb(255, 231, 197);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.gallery__title p{
+    margin-bottom: 15px;
+}
+.gallery__photo{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.gallery__photo img{
+    margin: 10px;
+}
